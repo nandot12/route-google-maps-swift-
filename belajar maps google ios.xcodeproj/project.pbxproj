@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DB39437206B7DC200202B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB39436206B7DC200202B5D /* AppDelegate.swift */; };
+		2DB39439206B7DC200202B5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB39438206B7DC200202B5D /* ViewController.swift */; };
+		2DB3943C206B7DC200202B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3943A206B7DC200202B5D /* Main.storyboard */; };
+		2DB3943E206B7DC200202B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3943D206B7DC200202B5D /* Assets.xcassets */; };
+		2DB39441206B7DC200202B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3943F206B7DC200202B5D /* LaunchScreen.storyboard */; };
+		90255CE394B0570F8EF0BE7D /* Pods_belajar_maps_google_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC835DDDB10F0FE72248B68 /* Pods_belajar_maps_google_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		154D6206A603D131193345C8 /* Pods-belajar maps google ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar maps google ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-belajar maps google ios/Pods-belajar maps google ios.debug.xcconfig"; sourceTree = "<group>"; };
+		2DB39433206B7DC200202B5D /* belajar maps google ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "belajar maps google ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB39436206B7DC200202B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DB39438206B7DC200202B5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DB3943B206B7DC200202B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DB3943D206B7DC200202B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DB39440206B7DC200202B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DB39442206B7DC200202B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A0773321B3A4C52AEA7F67 /* Pods-belajar maps google ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-belajar maps google ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-belajar maps google ios/Pods-belajar maps google ios.release.xcconfig"; sourceTree = "<group>"; };
+		DDC835DDDB10F0FE72248B68 /* Pods_belajar_maps_google_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_belajar_maps_google_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB39430206B7DC200202B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90255CE394B0570F8EF0BE7D /* Pods_belajar_maps_google_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB3942A206B7DC200202B5D = {
+			isa = PBXGroup;
+			children = (
+				2DB39435206B7DC200202B5D /* belajar maps google ios */,
+				2DB39434206B7DC200202B5D /* Products */,
+				615F0EF76270360C9F57B054 /* Pods */,
+				7C424C878C13D95ECF69DBB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DB39434206B7DC200202B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB39433206B7DC200202B5D /* belajar maps google ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB39435206B7DC200202B5D /* belajar maps google ios */ = {
+			isa = PBXGroup;
+			children = (
+				2DB39436206B7DC200202B5D /* AppDelegate.swift */,
+				2DB39438206B7DC200202B5D /* ViewController.swift */,
+				2DB3943A206B7DC200202B5D /* Main.storyboard */,
+				2DB3943D206B7DC200202B5D /* Assets.xcassets */,
+				2DB3943F206B7DC200202B5D /* LaunchScreen.storyboard */,
+				2DB39442206B7DC200202B5D /* Info.plist */,
+			);
+			path = "belajar maps google ios";
+			sourceTree = "<group>";
+		};
+		615F0EF76270360C9F57B054 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154D6206A603D131193345C8 /* Pods-belajar maps google ios.debug.xcconfig */,
+				74A0773321B3A4C52AEA7F67 /* Pods-belajar maps google ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C424C878C13D95ECF69DBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC835DDDB10F0FE72248B68 /* Pods_belajar_maps_google_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DB39432206B7DC200202B5D /* belajar maps google ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB39445206B7DC200202B5D /* Build configuration list for PBXNativeTarget "belajar maps google ios" */;
+			buildPhases = (
+				EA157D6B3E34EF8718BBB0AA /* [CP] Check Pods Manifest.lock */,
+				2DB3942F206B7DC200202B5D /* Sources */,
+				2DB39430206B7DC200202B5D /* Frameworks */,
+				2DB39431206B7DC200202B5D /* Resources */,
+				A24FC64A135903C05CDFC079 /* [CP] Embed Pods Frameworks */,
+				C5C6D39EFAC9F7320674E1B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "belajar maps google ios";
+			productName = "belajar maps google ios";
+			productReference = 2DB39433206B7DC200202B5D /* belajar maps google ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DB3942B206B7DC200202B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = imastudio;
+				TargetAttributes = {
+					2DB39432206B7DC200202B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2DB3942E206B7DC200202B5D /* Build configuration list for PBXProject "belajar maps google ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DB3942A206B7DC200202B5D;
+			productRefGroup = 2DB39434206B7DC200202B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB39432206B7DC200202B5D /* belajar maps google ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB39431206B7DC200202B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB39441206B7DC200202B5D /* LaunchScreen.storyboard in Resources */,
+				2DB3943E206B7DC200202B5D /* Assets.xcassets in Resources */,
+				2DB3943C206B7DC200202B5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A24FC64A135903C05CDFC079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-belajar maps google ios/Pods-belajar maps google ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar maps google ios/Pods-belajar maps google ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C6D39EFAC9F7320674E1B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-belajar maps google ios/Pods-belajar maps google ios-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-belajar maps google ios/Pods-belajar maps google ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA157D6B3E34EF8718BBB0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-belajar maps google ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB3942F206B7DC200202B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB39439206B7DC200202B5D /* ViewController.swift in Sources */,
+				2DB39437206B7DC200202B5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DB3943A206B7DC200202B5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB3943B206B7DC200202B5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DB3943F206B7DC200202B5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB39440206B7DC200202B5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DB39443206B7DC200202B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DB39444206B7DC200202B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DB39446206B7DC200202B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154D6206A603D131193345C8 /* Pods-belajar maps google ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5VE7KJP5J;
+				INFOPLIST_FILE = "belajar maps google ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imastudio.co.id.belajar-maps-google-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DB39447206B7DC200202B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A0773321B3A4C52AEA7F67 /* Pods-belajar maps google ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5VE7KJP5J;
+				INFOPLIST_FILE = "belajar maps google ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imastudio.co.id.belajar-maps-google-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DB3942E206B7DC200202B5D /* Build configuration list for PBXProject "belajar maps google ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB39443206B7DC200202B5D /* Debug */,
+				2DB39444206B7DC200202B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB39445206B7DC200202B5D /* Build configuration list for PBXNativeTarget "belajar maps google ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB39446206B7DC200202B5D /* Debug */,
+				2DB39447206B7DC200202B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DB3942B206B7DC200202B5D /* Project object */;
+}
